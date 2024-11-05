@@ -46,4 +46,4 @@ def generate_certificates(csv_path, image_template_path, font_path, font_size, o
     save_images_to_pdf(image_paths, output_pdf_path)
 
 if __name__ == "__main__":
-    generate_certificates('assets/data.csv', 'assets/certificate.jpg', 'assets/font/Roboto-Regular.ttf', 50, 'generated/output_certificates.pdf')
+    generate_certificates('assets/data.csv', 'assets/certificate.png', 'assets/font/Roboto-Regular.ttf', 50, 'generated/output_certificates.pdf')
